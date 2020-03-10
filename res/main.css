@@ -6,8 +6,20 @@ footer {
   background-color: hotpink;
 }
 body {
-  background-color: #455a64;
+  background :linear-gradient(45deg, #3cb371, #C5DDE8);
 }
 h3 {
   color: #00e676;
+}
+.img_carusel {
+  width: 100%;
+  height: 80%;
+}
+.container-lg-4 {
+  margin: 20px;
+}
+h2{ /*Bruh. Here is error*/
+  color: white;
+  font-family: 'fantasy';
+  src:url('fonts/roboto.ttf');
 }
