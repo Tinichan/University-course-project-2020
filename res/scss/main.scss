@@ -1,0 +1,75 @@
+$primer-color: #3cb371;
+$second-color: #343a40;
+$down: #1b7255;
+$cummon-text: white;
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+footer {
+  font-family: "fantasy";
+
+  color: $cummon-text;
+  background-color: $down;
+
+  flex: 0 0 auto;
+  src: url("fonts/roboto.ttf");
+}
+body {
+  background: linear-gradient(45deg, $primer-color, #c5dde8);
+}
+h3 {
+  color: #00e676;
+}
+.carousel-inner {
+  img {
+    width: 100%;
+    height: 80%;
+  }
+  .carousel-caption {
+    opacity: 0.8;
+    border-radius: 20px;
+    background-color: gray;
+    h3 {
+      opacity: 1;
+    }
+  }
+}
+.container-lg-4 {
+  margin: 20px;
+}
+.row {
+  margin-top: 20px;
+  h2 {
+    font-family: "fantasy";
+
+    color: $cummon-text;
+
+    src: url("fonts/roboto.ttf");
+  }
+  h3 {
+    text-align: center;
+
+    border-top: $cummon-text;
+  }
+  p {
+    font-family: "Oswald", sans-serif;
+    font-size: medium;
+
+    color: $cummon-text;
+  }
+  img {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+  }
+}
+hr {
+  width: 87%;
+  height: 12px;
+
+  color: $second-color;
+  border: solid;
+  border-radius: 100;
+  background-color: $second-color;
+}
