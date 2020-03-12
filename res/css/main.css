@@ -1,23 +1,22 @@
+h1 h2 h3 h4 h5 h6 p {
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+}
+
 .selector-for-some-widget {
   box-sizing: content-box;
 }
 
 footer {
   font-family: "fantasy";
-
   color: white;
   background-color: #1b7255;
-
   flex: 0 0 auto;
   src: url("fonts/roboto.ttf");
 }
 
 body {
   background: linear-gradient(45deg, #3cb371, #c5dde8);
-}
-
-h3 {
-  color: #00e676;
 }
 
 .carousel-inner img {
@@ -31,6 +30,7 @@ h3 {
 }
 .carousel-inner .carousel-caption h3 {
   opacity: 1;
+  color: #00e676;
 }
 
 .container-lg-4 {
@@ -39,23 +39,19 @@ h3 {
 
 .row {
   margin-top: 20px;
+  background-color: #343a40;
 }
 .row h2 {
   font-family: "fantasy";
-
   color: white;
-
   src: url("fonts/roboto.ttf");
 }
 .row h3 {
   text-align: center;
-
+  color: #00e676;
   border-top: white;
 }
 .row p {
-  font-family: "Oswald", sans-serif;
-  font-size: medium;
-
   color: white;
 }
 .row img {
@@ -67,11 +63,49 @@ h3 {
 hr {
   width: 87%;
   height: 12px;
-
   color: #343a40;
   border: solid;
   border-radius: 100;
   background-color: #343a40;
+}
+
+.full-card-info .first-part {
+  background-color: #2b2d30;
+}
+.full-card-info .second-part {
+  background-color: #343a40;
+}
+.full-card-info .second-part h5 {
+  color: #00e676;
+}
+.full-card-info .second-part p {
+  color: white;
+}
+.full-card-info .second-part a {
+  border-color: #00e676;
+  background-color: #3cb371;
+}
+
+.first {
+  background-color: #343a40;
+}
+
+.second {
+  background-color: #2b2d30;
+}
+
+.title {
+  opacity: 0.8;
+  border-radius: 20px;
+  background-color: gray;
+}
+.title h2 {
+  text-align: center;
+  color: #00e676;
+}
+.title p {
+  text-align: center;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */

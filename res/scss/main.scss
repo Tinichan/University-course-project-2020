@@ -1,7 +1,14 @@
 $primer-color: #3cb371;
 $second-color: #343a40;
+$light-second-color: #2b2d30;
 $down: #1b7255;
 $cummon-text: white;
+$title-text: #00e676;
+
+h1 h2 h3 h4 h5 h6 p {
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+}
 
 .selector-for-some-widget {
   box-sizing: content-box;
@@ -18,9 +25,6 @@ footer {
 body {
   background: linear-gradient(45deg, $primer-color, #c5dde8);
 }
-h3 {
-  color: #00e676;
-}
 .carousel-inner {
   img {
     width: 100%;
@@ -32,6 +36,7 @@ h3 {
     background-color: gray;
     h3 {
       opacity: 1;
+      color: $title-text;
     }
   }
 }
@@ -40,6 +45,8 @@ h3 {
 }
 .row {
   margin-top: 20px;
+
+  background-color: $second-color;
   h2 {
     font-family: "fantasy";
 
@@ -50,12 +57,10 @@ h3 {
   h3 {
     text-align: center;
 
+    color: $title-text;
     border-top: $cummon-text;
   }
   p {
-    font-family: "Oswald", sans-serif;
-    font-size: medium;
-
     color: $cummon-text;
   }
   img {
@@ -72,4 +77,43 @@ hr {
   border: solid;
   border-radius: 100;
   background-color: $second-color;
+}
+.full-card-info {
+  .first-part {
+    background-color: $light-second-color;
+  }
+  .second-part {
+    background-color: $second-color;
+    h5 {
+      color: $title-text;
+    }
+    p {
+      color: $cummon-text;
+    }
+    a {
+      border-color: $title-text;
+      background-color: $primer-color;
+    }
+  }
+}
+.first {
+  background-color: $second-color;
+}
+.second {
+  background-color: $light-second-color;
+}
+.title {
+  opacity: 0.8;
+  border-radius: 20px;
+  background-color: gray;
+  h2 {
+    text-align: center;
+
+    color: $title-text;
+  }
+  p {
+    text-align: center;
+
+    color: $cummon-text;
+  }
 }
