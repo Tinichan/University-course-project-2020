@@ -44,7 +44,7 @@ body {
   margin: 20px;
 }
 .row {
-  //background-color: $second-color;
+  background-color: $second-color;
   h2 {
     font-family: "fantasy";
 
@@ -88,10 +88,6 @@ hr {
     p {
       color: $cummon-text;
     }
-    a {
-      border-color: $title-text;
-      background-color: $primer-color;
-    }
   }
 }
 .first {
@@ -113,5 +109,20 @@ hr {
     text-align: center;
 
     color: $cummon-text;
+  }
+}
+.info-with-button {
+  img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  }
+}
+.social{
+  margin-right: 20px;
+  img{
+    width: 25px;
+    height: 25px;
   }
 }

@@ -29,20 +29,22 @@ body {
 .container-lg-4 {
   margin: 20px; }
 
-.row h2 {
-  font-family: "fantasy";
-  color: white;
-  src: url("fonts/roboto.ttf"); }
-.row h3 {
-  text-align: center;
-  color: #00e676;
-  border-top: white; }
-.row p {
-  color: white; }
-.row img {
-  width: 70px;
-  height: 70px;
-  margin: 10px; }
+.row {
+  background-color: #343a40; }
+  .row h2 {
+    font-family: "fantasy";
+    color: white;
+    src: url("fonts/roboto.ttf"); }
+  .row h3 {
+    text-align: center;
+    color: #00e676;
+    border-top: white; }
+  .row p {
+    color: white; }
+  .row img {
+    width: 70px;
+    height: 70px;
+    margin: 10px; }
 
 hr {
   width: 87%;
@@ -60,9 +62,6 @@ hr {
     color: #00e676; }
   .full-card-info .second-part p {
     color: white; }
-  .full-card-info .second-part a {
-    border-color: #00e676;
-    background-color: #3cb371; }
 
 .first {
   background-color: #343a40; }
@@ -80,5 +79,17 @@ hr {
   .title p {
     text-align: center;
     color: white; }
+
+.info-with-button img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: auto; }
+
+.social {
+  margin-right: 20px; }
+  .social img {
+    width: 25px;
+    height: 25px; }
 
 /*# sourceMappingURL=main.css.map */
