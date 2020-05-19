@@ -1,0 +1,55 @@
+@import "variables";
+
+.carousel-inner {
+    img {
+        width: 100%;
+        height: 80%;
+    }
+
+    .carousel-caption {
+        opacity: 0.8;
+        border-radius: 20px;
+        background-color: gray;
+
+        h3 {
+            opacity: 1;
+            color: $title-text;
+        }
+    }
+}
+
+.full-card-info {
+    h5 {
+        color: $title-text;
+    }
+
+    p {
+        color: $cummon-text;
+    }
+
+    .first-part {
+        background-color: $light-second-color;
+    }
+
+    .second-part {
+        background-color: $second-color;
+    }
+}
+
+.page-item {
+    a {
+        color: $primer-color;
+        background-color: $second-color;
+    }
+
+    border-radius: 5px;
+}
+
+.info-with-button {
+    img {
+        display: block;
+        height: 100%;
+        width: 100%;
+        margin: auto;
+    }
+}

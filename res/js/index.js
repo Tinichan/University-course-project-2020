@@ -9,4 +9,8 @@ $(function () {
 	$("#ButtonOnTop").click(function () {
 		$("body, html").animate({ scrollTop: 0 }, 700);
 	});
+
+	$("#myModal").on("shown.bs.modal", function () {
+		$("#myInput").trigger("focus");
+	});
 });

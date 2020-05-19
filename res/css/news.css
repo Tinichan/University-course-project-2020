@@ -1,0 +1,48 @@
+.carousel-inner img {
+  width: 100%;
+  height: 80%;
+}
+
+.carousel-inner .carousel-caption {
+  opacity: 0.8;
+  border-radius: 20px;
+  background-color: gray;
+}
+
+.carousel-inner .carousel-caption h3 {
+  opacity: 1;
+  color: #00e676;
+}
+
+.full-card-info h5 {
+  color: #00e676;
+}
+
+.full-card-info p {
+  color: white;
+}
+
+.full-card-info .first-part {
+  background-color: #212121;
+}
+
+.full-card-info .second-part {
+  background-color: #263238;
+}
+
+.page-item {
+  border-radius: 5px;
+}
+
+.page-item a {
+  color: #3cb472;
+  background-color: #263238;
+}
+
+.info-with-button img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+/*# sourceMappingURL=news.css.map */

@@ -1,0 +1,36 @@
+.info .row {
+  background-color: #263238;
+}
+
+.info .row h2 {
+  font-family: "fantasy";
+  color: white;
+  src: url("fonts/roboto.ttf");
+}
+
+.info .row h3 {
+  text-align: center;
+  color: #00e676;
+  border-top: white;
+}
+
+.info .row p {
+  color: white;
+}
+
+.info .row img {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+
+/*
+.first {
+    background-color: $second-color;
+}
+
+.second {
+    background-color: $light-second-color;
+}
+*/
+/*# sourceMappingURL=for_us.css.map */

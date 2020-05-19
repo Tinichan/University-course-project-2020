@@ -1,0 +1,38 @@
+@import "variables";
+
+.info {
+    .row {
+        background-color: $second-color;
+
+        h2 {
+            font-family: "fantasy";
+            color: $cummon-text;
+            src: url("fonts/roboto.ttf");
+        }
+
+        h3 {
+            text-align: center;
+            color: $title-text;
+            border-top: $cummon-text;
+        }
+
+        p {
+            color: $cummon-text;
+        }
+
+        img {
+            width: 70px;
+            height: 70px;
+            margin: 10px;
+        }
+    }
+}
+/*
+.first {
+    background-color: $second-color;
+}
+
+.second {
+    background-color: $light-second-color;
+}
+*/
